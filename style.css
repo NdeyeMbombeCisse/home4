@@ -42,7 +42,7 @@
 .tof{
     margin-left: 50px;
 }
-.image{
+.imag{
     background-image: url(26.png);
     background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
     background-position: center; /* Positionne l'image au centre */
@@ -203,5 +203,217 @@ b{
     margin-left: 10%;
     margin-top: 2%;
 }
+
+
+
+.container {
+    margin: auto;
+    padding: 2%;
+    
+}
+.apprenants{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#apprenant h1, #alimu h1{
+    font-weight: bold;
+    color: #ce0033;
+}
+.app hr{
+    
+    color: #000000;
+    width: 20%;
+    height: 1%;
+    margin: 0%;
+}
+.text{
+    background-color: whitesmoke;
+    padding:15%;
+    margin-top: 1%;
+}
+.student{
+    display: inline-block;
+    max-width: 40%;
+}
+.image{
+    max-width: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.image hr{
+    background-color: #ce0033;
+    width: 100%;
+    height: 1%;
+    margin: 0%;
+}
+.img27,.img13{
+    width: 100%;
+    height: 70%;
+
+}
+.text1{
+   max-width: 70%;
+   margin-left: 4%;
+    background-color: #fff;
+    font-weight: bold;
+}
+.image #deco1{
+    color: #ffff;
+    font-size: 16px;
+    display: inline-block;
+    align-items: center;
+    width: 10%;
+    padding: 1%;
+    border-radius:   0 38% 38% 0 ;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
+}
+.img12{
+    max-width: 12%;
+    max-height: 12%;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -16%;
+    opacity: 0.5;
+   
+}
+.img12a{
+    max-width: 12%;
+    max-height: 10%;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -25%;
+   
+}
+.img12b{
+    max-width: 12%;
+    max-height: 10%;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -25%;
+   
+}
+
+#heure span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 0.3%;
+    margin-left: 40%;
+    margin-top: -5%;
+    position:absolute;
+    background: #ce0033;
+}
+#heure1 span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 0.3%;
+    margin-left: 35%;
+    margin-top: -5%;
+    position:absolute;
+    background: #ce0033;
+}
+#heure2 span{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 0.3%;
+    margin-left: 40%;
+    margin-top: -5%;
+    position:absolute;
+    background: #ce0033;
+}
+.history{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#histoire h1{
+    font-weight: bold;
+    color: #ce0033;
+
+}
+.communaute{
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 2%;
+}
+.text2{
+    padding:15%;
+    margin-top: 1%;
+}
+.image #deco2{
+    color: #ffff;
+    font-size: 12px;
+    display: inline-block;
+    align-items: center;
+    width: 15%;
+    padding: 1%;
+    border-radius:   0 38% 38% 0 ;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
+}
+#team{
+    display: block;
+}
+#team h1{
+    font-weight: bold;
+    color: #ce0033;
+
+}
+.img30{
+    width: 100%;
+    height: 90%;
+    margin: 2%;
+
+}
+.image1{
+    max-width: 90%;
+    background-color: #fff;
+    
+    
+}
+.image1 #deco1{
+    color: #ffff;
+    font-size: 12px;
+    display: inline-block;
+    align-items: center;
+    width: 10%;
+    padding: 1%;
+    border-radius:   0 38% 38% 0 ;
+    margin-top: 4%;
+    margin-left: -2%;
+    position:absolute;
+    background: #ce0033;
+}
+#team hr{
+    background-color: #000000;
+    width: 10%;
+    height: 2%;
+    margin: 0%;
+
+}
+.img8{
+    width: 100%;
+    height: 100%;
+    max-height: 70%;
+
+}
+
 
 
