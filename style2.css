@@ -1,0 +1,132 @@
+#presentation{
+    background-color: antiquewhite;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.container {
+    margin: auto;
+    padding: 2%;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.imgpresentaion{
+    width: 35%;
+    height: 35%;
+    border-radius: 5%;
+    margin-left:45% ;
+
+}
+
+#presentation h1{
+    font-weight: bold;
+    color: #ce0033;
+}
+.texte1{
+    max-width:26%;
+    margin-right: 23%;
+}
+#presentation p{
+    font-size: 88%;
+}
+#nouvelles{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#nouvelles h1{
+    font-weight: bold;
+    color: #ce0033;
+    text-align: center;
+}
+#nouvelles h3{
+    color:#ce0033;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+
+}
+.card #deco{
+    color: #ffff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3%;
+    padding-bottom: 1%;
+    border-radius: 0 0 60% 60%;
+    margin-left: 15%;
+    margin-top: -20px;
+    position:absolute;
+    background: #ce0033;
+
+}
+.card1{
+    max-width: 25%;
+    margin: 1%;
+}
+#nouvelles img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+}
+#nouvelles p{
+    color: rgb(78, 77, 77);
+}
+
+#icon{
+   
+    display: flex;
+    float: right;
+    
+   
+}
+#icon h1{
+    text-align: right;
+ 
+}
+.event{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.event1{
+    background-color: #ce0033;
+    color: #ffff;
+    display: flex;
+    max-width: 50%;
+    margin: 1%;
+    padding: 1%;
+}
+#event .titre{
+    color: #ce0033;
+    font-weight: bold;
+}
+.date{
+    padding: 1%;
+    margin-left:5%;
+}
+b{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.bodyevent{
+    text-align: center;
+    max-width: 57%;
+    font-weight: bold;
+    display: flex;
+    margin-left: 3%;
+}
+#event iconify-icon{
+    max-height: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
