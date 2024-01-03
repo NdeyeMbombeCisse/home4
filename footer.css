@@ -1,0 +1,138 @@
+#footer{
+    background-image: url('./Images\ du\ pdf\ home/18.png');
+        /* Autres propriétés facultatives */
+    background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
+    background-position: center; /* Positionne l'image au centre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding: 4% 10% 11% 2%;
+    margin-top: 5%;
+    
+}
+.container{
+    display: flex;
+}
+#logo{
+    display: inline-block;
+    max-width: 25%;
+    
+   
+}
+.logo p{
+    font-size: 60%;
+   margin-top: -7%;
+    color: #ffff;
+  
+}
+.img14{
+    width: 50%;
+    margin: 5%;
+}
+.icon{
+  
+    margin-top: 20%;
+    
+}
+iconify-icon{
+    margin-left: 5%;
+}
+
+iconify-icon:not(.first-icon) {
+    margin-left: 5%; /* Ajoute de l'espace à gauche des icônes sauf pour la première */
+}
+.infos{
+    display: inline-block;
+    max-width: 25%;
+    margin-top: -2%;
+}
+.infos h1,.coordonne h1,.newsletter h1{
+    color: #ffff;
+}
+
+
+li a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+    display: inline-block; 
+    justify-content: space-between;
+}
+.infos ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0; /* Réinitialise les marges intérieures du ul */
+}
+
+.infos li {
+    margin-bottom: 5%; 
+    color: rgb(201, 187, 187);
+    text-decoration: none;
+    list-style: none;
+   
+}
+.coordonne{
+    display: inline-block;
+    max-width: 25%;
+    margin-top: -0.5%;
+    margin-left: 6%;
+    color: rgb(201, 187, 187);
+}
+
+.adresse{
+    margin-top: 10%;
+}
+.email{
+    margin-top: 15%;
+}
+.email a{
+    text-decoration: none;
+    color: rgb(201, 187, 187);
+}
+.email li{
+    list-style: none;
+}
+.newsletter{
+    display: inline-block;
+    max-width: 25%;
+    margin-left: 8%;
+    color: rgb(201, 187, 187);
+}
+.input{
+    max-width: 100%;
+    display: flex;
+    margin-top: 20%;
+
+}
+input{
+    
+    height: 100%;
+    padding: 4.3%;
+    border-radius: 8%;
+}
+.joindre{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    padding: 1%;
+    margin-left: 15%;
+    margin-top: -0.1%;
+    position:absolute;
+    background: #ce0033;
+}
+#baspage{
+    background-color: #ce0033;
+    color: #ffff;
+    font-weight: bold;
+}
+.copy{
+    max-width: 50%;
+    margin-left: 2%;
+}
+.made{
+    text-align: right;
+    max-width: 50%;
+   margin-left: 50%;
+}
+
+
+
