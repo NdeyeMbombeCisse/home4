@@ -1,7 +1,7 @@
 .formulaire{
     display: flex;
     margin-left: 30px;
-    background:#f3eeee ;
+    background:rgb(249, 232, 237);
     text-decoration: colunm;
 }
 h1{
@@ -45,6 +45,7 @@ input{
     border-radius:50px ;
     background:#ce0033 ;
     color:white ;
+    border: #ce0033;
 }
 .last{
     margin-top: 2px;
