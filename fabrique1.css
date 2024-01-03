@@ -26,6 +26,82 @@
     color: #ce0033;
 }
 .video{
-    margin-left: 10%;
+    margin-left: 9%;
     max-width: 50%;
+}
+#pilier{
+    margin-top: 8%;
+    margin-bottom: 1%;
+    
+    }
+#pilier .container{
+    display: flex;
+    background-color: whitesmoke;
+}
+#pilier .rows{
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 60%;
+}
+#pilier .titre1{
+    color: #ce0033;
+    margin-left: 8%;
+     
+}
+.row{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.row .colonne1{
+    max-width: 40%;
+    background-color: #fff;
+    box-shadow:0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-bottom:10px solid #ce0033;
+    margin: 1%;
+    padding: 2%;
+}
+.colonne1 .img13{
+    width: 20%;
+}
+.colonne1 h5{
+    margin-top: 0%;
+
+}
+.colonne1 p{
+    font-size: 90%;
+}
+.row .colonne2{
+    max-width: 40%;
+    margin-left: 3%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-bottom:10px solid #ce0033;
+    margin: 1%;
+    padding: 2%;
+   
+}
+.colonne2 .img29{
+    width: 20%;
+}
+.colonne2 h5{
+    margin-top: 0%;
+
+}
+.colonne2 p{
+    font-size: 90%;
+}
+#pilier .img33{
+    border-radius: 10%;
+    margin-top: 12%;
+    
+    }
+
+#pilier .image{
+    
+    max-width: 45%;
+    margin-left: 5%;
+    
 }
