@@ -22,12 +22,15 @@
 .topbar img{
     margin-left:50px ;
 }
-.select{
+.topbar .select{
     margin-left: 50px ;
     margin-top: -10px;
 }
+iconify-icon .tof{
+    margin-left: 50px;
+}
 
-.contact{
+.topbar .contact{
     margin-right:10px;
     border: 1px solid ;
     border-radius:30px ;
@@ -39,22 +42,6 @@
     padding: 2px;
 
 
-}
-.tof{
-    margin-left: 50px;
-}
-.imag{
-    background-image: url(26.png);
-    background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
-    background-position: center; /* Positionne l'image au centre */
-    background-repeat: no-repeat;
-    padding: 4% 10% 11% 2%;
-    color: white;
-    margin-top:3% ;
-    opacity: 0.9;
-}
-.back{
-    margin-left: 15%;
 }
 .topbarnav :hover{
     color: red;
@@ -73,23 +60,38 @@
     padding: 10px 5px 25px 5px;
     
 }
+
+.imag{
+    background-image: url(26.png);
+    background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
+    background-position: center; /* Positionne l'image au centre */
+    background-repeat: no-repeat;
+    padding: 4% 10% 11% 2%;
+    color: white;
+    margin-top:3% ;
+    opacity: 0.9;
+}
+.imag .back{
+    margin-left: 15%;
+}
+
 #presentation{
     background-color: antiquewhite;
 
     margin-bottom: 1%;
 }
-.container {
+#presentation .container {
     margin: auto;
     padding: 2%;
     
 }
-.row{
+#presentation .row{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.imgpresentaion{
+.imag1 .imgpresentaion{
     width: 35%;
     height: 35%;
     border-radius: 5%;
@@ -101,12 +103,108 @@
     font-weight: bold;
     color: #ce0033;
 }
-.texte1{
+#presentation .texte1{
     max-width:26%;
     margin-right: 23%;
 }
 #presentation p{
     font-size: 88%;
+}
+#nouvelles{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#nouvelles h1{
+    font-weight: bold;
+    color: #ce0033;
+    text-align: center;
+}
+#nouvelles h3{
+    color:#ce0033;
+    font-weight: bold;
+}
+#nouvelles .card{
+    display: flex;
+
+}
+#nouvelles .card #deco{
+    color: #ffff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3%;
+    padding-bottom: 1%;
+    border-radius: 0 0 60% 60%;
+    margin-left: 15%;
+    margin-top: -20px;
+    position:absolute;
+    background: #ce0033;
+
+}
+#nouvelles .card1{
+    max-width: 25%;
+    margin: 1%;
+}
+#nouvelles img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+}
+#nouvelles p{
+    color: rgb(78, 77, 77);
+}
+
+#nouvelles #icon{
+   
+    display: flex;
+    float: right;
+    
+   
+}
+#nouvelles #icon h1{
+    text-align: right;
+ 
+}
+#event .event{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+#event .event1{
+    background-color: #ce0033;
+    color: #ffff;
+    display: flex;
+    max-width: 50%;
+    margin: 1%;
+    padding: 1%;
+}
+#event .titre{
+    color: #ce0033;
+    font-weight: bold;
+}
+#event .date{
+    padding: 1%;
+    margin-left:5%;
+}
+#event b{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#event .bodyevent{
+    text-align: center;
+    max-width: 57%;
+    font-weight: bold;
+    display: flex;
+    margin-left: 3%;
+}
+#event iconify-icon{
+    max-height: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 
@@ -118,68 +216,69 @@
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     padding: 4% 10% 11% 2%;
     margin-top: 5%;
+    margin-bottom: 0%;
     
 }
-.container{
+#footer .container{
     display: flex;
 }
-#logo{
+#footer #logo{
     display: inline-block;
     max-width: 25%;
     
    
 }
-.logo p{
+#footer .logo p{
     font-size: 60%;
    margin-top: -7%;
     color: #ffff;
   
 }
-.img14{
+#footer .img14{
     width: 50%;
     margin: 5%;
 }
-.icon{
+#footer .icon{
   
     margin-top: 20%;
     
 }
-iconify-icon{
+#footer iconify-icon{
     margin-left: 5%;
 }
 
-iconify-icon:not(.first-icon) {
+#footer iconify-icon:not(.first-icon) {
     margin-left: 5%; /* Ajoute de l'espace à gauche des icônes sauf pour la première */
 }
-.infos{
+#footer .infos{
     display: inline-block;
     max-width: 25%;
     margin-top: -2%;
 }
-.infos h1,.coordonne h1,.newsletter h1{
+#footer .infos h1,.coordonne h1,.newsletter h1{
     color: #ffff;
 }
 
 
-li a{
+#footer li a{
     text-decoration: none;
     color: rgb(201, 187, 187);
     display: inline-block; 
     justify-content: space-between;
 }
-.infos ul {
+#footer .infos ul {
     list-style: none; /* Supprime les puces */
     padding: 0; /* Réinitialise les marges intérieures du ul */
 }
 
-.infos li {
+#footer .infos li {
     margin-bottom: 5%; 
     color: rgb(201, 187, 187);
     text-decoration: none;
     list-style: none;
    
 }
-.coordonne{
+#footer .coordonne{
     display: inline-block;
     max-width: 25%;
     margin-top: -0.5%;
@@ -187,38 +286,38 @@ li a{
     color: rgb(201, 187, 187);
 }
 
-.adresse{
+#footer .adresse{
     margin-top: 10%;
 }
-.email{
+#footer .email{
     margin-top: 15%;
 }
-.email a{
+#footer .email a{
     text-decoration: none;
     color: rgb(201, 187, 187);
 }
-.email li{
+#footer .email li{
     list-style: none;
 }
-.newsletter{
+#footer .newsletter{
     display: inline-block;
     max-width: 25%;
     margin-left: 8%;
     color: rgb(201, 187, 187);
 }
-.input{
+#footer .input{
     max-width: 100%;
     display: flex;
     margin-top: 20%;
 
 }
-input{
+#footer input{
     
     height: 100%;
     padding: 4.3%;
     border-radius: 8%;
 }
-.joindre{
+#footer .joindre{
     color: #ffff;
     font-weight: bold;
     font-size: 16px;
@@ -235,15 +334,20 @@ input{
     background-color: #ce0033;
     color: #ffff;
     font-weight: bold;
+    margin-top: -2%;
 }
-.copy{
+#baspage .copy1{
+    display: flex;
+}
+#baspage .copy{
     max-width: 50%;
-    margin-left: 2%;
+    padding: 0.5%;
 }
-.made{
+#baspage .made{
     text-align: right;
     max-width: 50%;
    margin-left: 50%;
+   margin-right: 2%;
 }
 
 
