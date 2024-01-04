@@ -1,0 +1,275 @@
+.topbar{
+    display: flex;
+    width:100% ;
+    height: 16px; 
+    background: white;
+}
+.topbarnav{
+    margin-left: 200px;
+    color: black;
+    font-size:16px ;
+    display: flex;
+    
+}
+
+.topbarnav a{
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+}
+.topbar img{
+    margin-left:50px ;
+}
+.select{
+    margin-left: 100px ;
+}
+
+.contact{
+    margin-right:10px;
+    border: 1px solid ;
+    border-radius:30px ;
+    background:#ce0033 ;
+    margin-top:3% ;
+    color: white;
+    height: 20px;
+
+
+}
+.tof{
+    margin-left: 50px;
+}
+.image{
+    background-image: url(26.png);
+    font-size: cover;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    margin-top:3% ;
+    opacity: (0.5)
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 200px;
+    
+}
+.topbarnav :hover{
+    color: red;
+    text-decoration: underline;
+}
+.rouge{
+    display: flex;
+    background: #ce0033;
+    height:250px ;
+    width: 700px;
+    text-align: center;
+    margin-top: -90px;
+    margin-left:300px ;
+    opacity: calc(0.6);
+}
+.rouge rou{
+    display: flex;
+    
+}
+.rou{
+    margin-left: 20px;
+    color: white;
+    font-weight:bold;
+    font-size: 13px; 
+    padding: 20px;
+    margin-top: 0.3px;
+    
+
+}
+.bordure{
+    border-left:solid  ;
+    height: 100px;
+    padding: 30px;
+
+}
+.bas{
+    padding:30px ;
+}
+h3{
+    font-size:30px ;
+}
+h2{
+    font-size:30px ;
+}
+.histoire{
+    text-align: center;
+    display: flex;
+    width: 110%;
+    height:40% ;
+    background:hsl(348, 17%, 94%) ;
+    
+}
+h4{
+    color: #ce0033;
+    text-align: center;
+    font-size:25px ;
+}
+h5{
+    color: #ce0033;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.ecrit{
+    margin-left: 40px;
+}
+
+.annee{
+    margin-top: -250px;
+    color: white;
+    font-size: 40px;
+    
+    
+    
+   
+}
+.im img{
+    margin-left: 100px;
+    margin-top:40px ;
+    margin-right: -100px;
+    
+}
+.annee{
+    margin-left: 400px;
+    z-index: -120px;
+    color: #ce0033;
+
+}
+#pedago{
+    
+    margin-top: -10px;
+    margin-bottom: 1%;
+}
+.container {
+    margin: auto;
+    padding: 2%;
+    
+}
+.titre h1{
+    color: #ce0033;
+    text-align: center;
+    font-weight: bold;
+    margin: 2% 0 5% 0;
+    font-size:25px ;
+    margin-top:-190px ;
+}
+.methode{
+    display: flex;
+}
+.active{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: -20px;
+   
+}
+.active h2{
+    color: #ce0033;
+    margin-bottom:-15px ;
+    font-size: 20px;
+}
+.active p{
+    line-height: 2;
+}
+
+.video{
+    margin-left: 6%;
+    max-width: 55%;
+}
+#pilier{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-top: -200px;
+    
+    }
+    .titre1 h1{
+        font-size: 20px;
+        color: #ce0033;
+        margin-left: -870px;
+    }
+#pilier .container{
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+#pilier .rows{
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 60%;
+}
+#pilier .titre1{
+    color: #ce0033;
+    margin-left: 6%;
+     
+}
+.row{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.row .colonne1{
+    max-width: 40%;
+    background-color: #fff;
+    box-shadow:0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-bottom:10px solid #ce0033;
+    margin: 1%;
+    padding: 2%;
+}
+.colonne1 .img13{
+    width: 20%;
+}
+.colonne1 h5{
+    margin-top: 0%;
+
+}
+.colonne1 p{
+    font-size: 90%;
+    margin-top: 0%;
+    
+}
+.row .colonne2{
+    max-width: 40%;
+    margin-left: 3%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-bottom:10px solid #ce0033;
+    margin: 1%;
+    padding: 2%;
+   
+}
+.colonne2 .img29{
+    width: 20%;
+}
+.colonne2 h5{
+    margin-top: 0%;
+
+}
+.colonne2 p{
+    font-size: 90%;
+}
+#pilier .img33{
+    border-radius: 10%;
+    margin-top: 12%;
+    
+    }
+
+#pilier .image{
+    margin-left: 5%;
+    width: 0px;
+    height:0px;
+    
+}
+
+    
+
+
+
