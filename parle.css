@@ -1,0 +1,21 @@
+.temoignage{
+    display: flex;
+}
+.photo{
+    display: block;
+    margin-left: 300px;
+}
+h1{
+    text-align: center;
+    color: #ce0033;
+}
+.prenom{
+    font-weight: bold;
+    font-size: 22px;
+}
+img{
+    border-radius: 100%;
+}
+.text{
+    color: darkgrey;
+}
