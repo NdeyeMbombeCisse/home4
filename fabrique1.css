@@ -18,25 +18,31 @@
     display: flex;
 }
 .active{
-    max-width: 25%;
+    max-width: 35%;
     margin-left: 5%;
    
 }
 .active h2{
     color: #ce0033;
 }
+.active p{
+    line-height: 2;
+}
+
 .video{
-    margin-left: 9%;
-    max-width: 50%;
+    margin-left: 6%;
+    max-width: 55%;
 }
 #pilier{
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 1%;
     
     }
 #pilier .container{
     display: flex;
     background-color: whitesmoke;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 #pilier .rows{
     display: inline-block;
@@ -45,7 +51,7 @@
 }
 #pilier .titre1{
     color: #ce0033;
-    margin-left: 8%;
+    margin-left: 6%;
      
 }
 .row{
@@ -72,6 +78,7 @@
 }
 .colonne1 p{
     font-size: 90%;
+    margin-top: 0%;
 }
 .row .colonne2{
     max-width: 40%;
