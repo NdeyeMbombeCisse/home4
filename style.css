@@ -61,24 +61,42 @@ iconify-icon .tof{
     
 }
 
-.imag{
-    background-image: url(26.png);
+.imag {
+    position: relative; /* Nécessaire pour placer la superposition */
+    overflow: hidden; /* Pour empêcher le texte d'apparaître en dehors du conteneur */
+    margin-top:3% ;
+}
+
+.imag::before {
+    content: ''; /* Contenu de la superposition */
+    position: absolute; /* Position absolue pour la superposition */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('26.png');
     background-size: cover; /* Redimensionne l'image pour remplir complètement l'arrière-plan */
     background-position: center; /* Positionne l'image au centre */
     background-repeat: no-repeat;
-    padding: 4% 10% 11% 2%;
-    color: white;
-    margin-top:3% ;
-    opacity: 0.9;
+    filter: brightness(50%);
+    z-index: -1; /* Place la superposition derrière le contenu */
 }
+
+.imag .back {
+    position: relative; /* Pour placer le texte par rapport au conteneur */
+    z-index: 1; /* Place le texte au-dessus de la superposition */
+    color: white; /* Couleur du texte */
+    padding: 4% 10% 11% 2%; /* Espacement du texte */
+    margin-top: 3%; /* Marge supérieure */
+}
+
 .imag .back{
     margin-left: 15%;
 }
 
 #presentation{
     background-color: antiquewhite;
-
-    margin-bottom: 1%;
+    margin-bottom: 10%;
 }
 #presentation .container {
     margin: auto;
@@ -90,10 +108,11 @@ iconify-icon .tof{
     align-items: center;
     justify-content: center;
     text-align: center;
+    max-width: 100%;
 }
 .imag1 .imgpresentaion{
-    width: 35%;
-    height: 35%;
+    width: 50%;
+    height: 40%;
     border-radius: 5%;
     margin-left:45% ;
 
@@ -104,24 +123,26 @@ iconify-icon .tof{
     color: #ce0033;
 }
 #presentation .texte1{
-    max-width:26%;
-    margin-right: 23%;
+    max-width:35%;
+    margin-right: 20%;
 }
 #presentation p{
     font-size: 88%;
+    line-height: 2;
 }
 #nouvelles{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 3%;
 }
 #nouvelles h1{
     font-weight: bold;
     color: #ce0033;
     text-align: center;
+    margin-bottom: 8%;
 }
-#nouvelles h3{
+#nouvelles h2{
     color:#ce0033;
     font-weight: bold;
+    margin-left: 2%;
 }
 #nouvelles .card{
     display: flex;
@@ -162,9 +183,13 @@ iconify-icon .tof{
     
    
 }
-#nouvelles #icon h1{
+#nouvelles #icon h3{
     text-align: right;
+    color: #ce0033;
  
+}
+#event{
+    margin: 10% 3% 0 3%;
 }
 #event .event{
     margin-top: 1%;
@@ -185,6 +210,7 @@ iconify-icon .tof{
 #event .titre{
     color: #ce0033;
     font-weight: bold;
+    margin-left: 1%;
 }
 #event .date{
     padding: 1%;
@@ -206,6 +232,122 @@ iconify-icon .tof{
     margin-left: 10%;
     margin-top: 2%;
 }
+#decouverte .back{
+    background-image: url(35.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+   
+}
+#decouverte .dec{
+    color: #ce0033;
+    font-size:30px ;
+    margin-left:1020px ;
+    font-weight: bold;
+}
+#decouverte .text{
+    margin-left: 70px;
+}
+#decouverte .red{
+    display: block;
+    margin-left: 15%;
+
+   
+}
+#decouverte .case{
+    display: flex;
+    width: 900px;
+    height: 150px; ;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: -5%;
+    background-color: #ce0033; ;
+    color:white ;
+}
+#decouverte .num{
+    font-size:25px ;
+    margin-top:2px ;
+    text-align: center;
+}
+#decouverte .ecrit{
+    margin-top:4px ;
+}
+#formateur .forma{
+    color: #ce0033;
+    margin-left:5% ;
+    border-bottom: solid black;
+    width: 70px;
+}
+#formateur .samba{
+    display: flex;
+   margin: center;
+   
+    
+
+}
+#formateur .sam{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 80px;
+    background: rgb(240, 237, 237);
+    width: 300px; 
+    height: 200px;
+    
+    
+
+}
+#formateur.kane{
+    font-size: 12px;
+    border-bottom:solid ;
+    color: black;
+
+}
+#formateur .sam img{
+    margin-bottom:-30%;
+    margin-left: 10%;
+    margin-left: 20px;
+    border-radius: 5%;
+    margin-top: -15%;
+
+    
+}
+#formateur .write{
+    margin-left:40px;
+    font-size:9px ;
+    margin-left:15px ;
+}
+#formateur .voir{
+    border-radius:60px ;
+    background: #ce0033;
+    color:white ;
+    margin-left:100px ;
+}
+#formateur .b{
+    border-radius:40%;
+    background: #ce0033;
+    color: #ce0033;
+    margin-top: 4%;
+    width:20px ;
+    height: 8px;
+    border: #ce0033;
+    
+}
+#formateur .bo{
+    border-radius:50% ;
+    width: -1px;
+    width:1px ;
+    background: #ce0033;
+    border: #ce0033;
+}
+#formateur .bout{
+    text-align: center;
+}
+
 
 
 #footer{
