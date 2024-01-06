@@ -1,90 +1,97 @@
+/* section css de la barre de navigation */
+body{
+    font-family: sans-serif;
+}
+.logsimplon{
+    height: 60px;
+    width: auto;
+}
 .topbar{
     display: flex;
-    width:100% ;
-    height: 16px; 
-    background: white;
+    margin-top: 25px;
 }
 .topbarnav{
     margin-left: 200px;
     color: black;
     font-size:16px ;
     display: flex;
-    
+    margin-top: 18px;
 }
-
+.topbarnav :hover{
+    color: red;
+    text-decoration: underline;
+}
 .topbarnav a{
     margin-left: 50px;
     color: black;
     text-decoration: none;
+    font-weight: bolder;
 }
 .topbar img{
     margin-left:50px ;
 }
-.select{
-    margin-left: 100px ;
+
+
+select{
+    border-style: none;
 }
 .contact{
     border: 1px solid ;
     border-radius:30px ;
     background:#ce0033 ;
     color: white;
-    height: 20px;
-
-
+    padding: 8px;
+    font-weight: bolder;
 }
+/* fin section */
+/* style deuxième section */
 .tof{
     margin-left: 50px;
 }
-.image{
-    background-image: url(26.png);
-    font-size: cover;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    color: white;
-    margin-top:3% ;
-    opacity: (0.5)
-}
-h1{
+
+
+.h1{
     text-align: center;
-    color: white;
+    color:white;
     font-size: 70px;
     font-weight: bold;
-    padding-top: 200px;
-    
+    background-image:url(26.png);
+    background-size: cover;
+    margin-top:3% ;
+    padding:400px;
 }
-.topbarnav :hover{
-    color: red;
-    text-decoration: underline;
-}
+
+
 .rouge{
     display: flex;
     background: #ce0033;
     height:250px ;
     width: 700px;
     text-align: center;
-    margin-top: -90px;
+    margin-top: -60px;
     margin-left:300px ;
     opacity: calc(0.6);
 }
-.rouge rou{
+.rouge .box_fabrique{
     display: flex;
-    
+   
 }
-.rou{
+.box_fabrique{
     margin-left: 20px;
     color: white;
     font-weight:bold;
-    font-size: 13px; 
+    font-size: 13px;
     padding: 20px;
     margin-top: 0.3px;
-    
+   
+
 
 }
 .bordure{
     border-left:solid  ;
     height: 100px;
     padding: 30px;
+
 
 }
 .bas{
@@ -102,7 +109,7 @@ h2{
     width: 110%;
     height:40% ;
     background:hsl(348, 17%, 94%) ;
-    
+   
 }
 h4{
     color: #ce0033;
@@ -118,36 +125,38 @@ h5{
     margin-left: 40px;
 }
 
+
 .annee{
     margin-top: -250px;
     color: white;
     font-size: 40px;
-    
-    
-    
+   
+   
+   
    
 }
 .im img{
     margin-left: 100px;
     margin-top:40px ;
     margin-right: -100px;
-    
+   
 }
 .annee{
     margin-left: 400px;
     z-index: -120px;
     color: #ce0033;
 
+
 }
 #pedago{
-    
+   
     margin-top: -10px;
     margin-bottom: 1%;
 }
 .container {
     margin: auto;
     padding: 2%;
-    
+   
 }
 .titre h1{
     color: #ce0033;
@@ -175,6 +184,7 @@ h5{
     line-height: 2;
 }
 
+
 .video{
     margin-left: 6%;
     max-width: 55%;
@@ -183,7 +193,7 @@ h5{
     margin-top: 5%;
     margin-bottom: 1%;
     margin-top: -200px;
-    
+   
     }
     .titre1 h1{
         font-size: 20px;
@@ -210,7 +220,8 @@ h5{
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-    
+   
+
 
 }
 .row .colonne1{
@@ -227,11 +238,12 @@ h5{
 .colonne1 h5{
     margin-top: 0%;
 
+
 }
 .colonne1 p{
     font-size: 90%;
     margin-top: 0%;
-    
+   
 }
 .row .colonne2{
     max-width: 40%;
@@ -249,6 +261,7 @@ h5{
 .colonne2 h5{
     margin-top: 0%;
 
+
 }
 .colonne2 p{
     font-size: 90%;
@@ -256,20 +269,21 @@ h5{
 #pilier .img33{
     border-radius: 10%;
     margin-top: 12%;
-    
+   
     }
+
 
 #pilier .image{
     margin-left: 5%;
     width: 0px;
     height:0px;
-    
+   
 }
 .valeur{
     display: flex;
     margin-left: 30px;
     background: hsl(0, 23%, 97%);
-    
+   
 }
 .num{
     font-size:25px ;
@@ -278,17 +292,17 @@ h5{
     color: #ce0033;
     width: 40px;
     height:40px ;
-    padding-left:5px ; 
-    margin-top: 10px;   
+    padding-left:5px ;
+    margin-top: 10px;  
 }
-    
+   
 .element{
     margin-left: 300px;
     margin-top: 25px;
 }
 h1{
     text-align: center;
-    color: #ce0033;
+    /* color: #ce0033; */
 }
 h2{
     color: #ce0033;
@@ -301,6 +315,7 @@ h2{
 }
 .leselements p{
     margin-left: 15px;
+
 
 }
 .respect button{
@@ -322,24 +337,28 @@ h3{
     font-size: 30px;
 }
 .red{
-    
+   
     display: flex;
     width:100%;
     background: #ce0033;
     height: 150px;
-    
+   
+
 
 }
 .contenu{
     margin-left: 150px;
     color: white;
 
+
 }
 .number{
     font-size: 20px;
     margin-right:12px ;
 
+
 }
+
 
 .nosvaleurs{
     margin-top: -210px;
@@ -355,14 +374,14 @@ h3{
 .container {
     margin: auto;
     padding: 2%;
-    
+   
 }
 #equipe .titre3{
     color: #ce0033;
     text-align: center;
     font-weight: bold;
     margin-bottom:4%;
-    
+   
 }
 #equipe p{
     margin-bottom: 6%;
@@ -388,11 +407,12 @@ h3{
     margin-left: 22%;
     padding: 2%;
 
+
 }
 .col h3{
     text-align: center;
     margin-top: 0%;
-    
+   
 }
 .col h4{
     text-align: center;
@@ -406,7 +426,7 @@ h3{
 }
 .row .icon{
     text-align: center;
-    
+   
 }
 iconify-icon {
     margin-top: 8%;
@@ -420,12 +440,13 @@ iconify-icon {
 .container {
     margin: auto;
     padding: 2%;
-    
+   
 }
+
 
 #fabrique .row{
     max-width: 100%;
-    
+   
     display: flex;
    
 }
@@ -433,7 +454,7 @@ iconify-icon {
     max-width: 28%;
     padding: 2%;
     margin-left: 3%;
-    
+   
 }
 #fabrique .titre4{
     color: #ce0033;
@@ -442,7 +463,7 @@ iconify-icon {
     margin: 2%;
 }
 .col1 h3{
-    
+   
     margin-top: 0%;
     color: black;
 }
@@ -455,10 +476,12 @@ iconify-icon {
     width: 100%;
 
 
+
+
 }
 .titre3 h1{
     font-size:30px ;
-    
+   
 }
 #fabrique h1{
     font-size: 30px;
@@ -492,10 +515,12 @@ iconify-icon {
     margin-top: 12px;
 }
 
+
 .conten p{
     margin-left: 100px;
     font-size: 14px;
     color: black;
+
 
 }
 h2{
@@ -504,6 +529,7 @@ h2{
     margin-left: 100px;
 }
 
+
 .formulaire{
     display: flex;
     margin-left: 30px;
@@ -511,7 +537,7 @@ h2{
 }
 h1{
     text-align: center;
-    color: #ce0033;
+    /* color: #ce0033; */
 }
 input{
     padding: 10px;
@@ -523,8 +549,10 @@ input{
 }
 .mes{
 
+
     margin-top:50px ;
-    padding:30px ;   
+    padding:30px ;  
+
 
 }
 .mes textarea{
@@ -572,10 +600,10 @@ input{
 .form{
     margin-left: 100px;
     background:white ;
-    
+   
 }
 .offre{
-    background: hwb(0 93% 3%); 
+    background: hwb(0 93% 3%);
     width: 500px;
     height: 500px;
     margin-left: 15px;
@@ -588,6 +616,7 @@ h3{
     border-color: hwb(344 75% 6%);
     border-width: 0.5px;
     margin-left:20px ;
+
 
 }
 .formateur{
@@ -649,11 +678,18 @@ h3{
 }
 .lien{
 
+
     color: black;
     margin-left: 370px;
 }
 
-    
+
+   
+
+
+
+
+
 
 
 
