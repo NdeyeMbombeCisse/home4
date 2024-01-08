@@ -6,10 +6,11 @@
     margin-top: 2%;
 }
 .topbarnav{
-    margin-left: 140px;
+    margin-left: 250px;
     color: black;
-    font-size:16px ;
+    font-size:20px ;
     display: flex;
+    
     
 }
 
@@ -17,19 +18,31 @@
     margin-left: 50px;
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 .topbar img{
     margin-left:50px ;
+    width: 120px;
+    height: 50px;
+    
 }
 .topbar .select{
-    margin-left: 50px ;
-    margin-top: -10px;
+    margin-left:120px ;
+    margin-top:-10px;
 }
 iconify-icon .tof{
-    margin-left: 50px;
+    margin-left: 70px; 
 }
-
+.tof{
+    margin-left: 40px;
+}
+.topbarnav a:hover{
+    border-bottom: 5px solid #ce0033; /* Soulignement épais au survol */
+    color: #ce0033;
+    padding-bottom: 55px;
+}
 .topbar .contact{
     margin-right:10px;
     border: 1px solid ;
@@ -39,9 +52,7 @@ iconify-icon .tof{
     color: white;
     height: 30px;
     width: 60px;
-    padding: 2px;
-
-
+    padding: 3px;
 }
 .topbarnav :hover{
     color: red;
@@ -53,18 +64,33 @@ iconify-icon .tof{
     background:#ce0033 ;
     margin-top:3% ;
     color: white;
-    height: 30px;
+    height: 50px;
     width: 150px;
     font-weight: bold;
     align-items: center;
     padding: 10px 5px 25px 5px;
+    font-size: 15px;
     
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p1{
+    color:white;
+    font-weight: bold;
+    font-size:50px;
+    margin-right:500px;
+    margin-left:auto;
+}
+.p2{
+    font-size: 25px;
+    margin-top: 2px;
 }
 
 .imag {
     position: relative; /* Nécessaire pour placer la superposition */
     overflow: hidden; /* Pour empêcher le texte d'apparaître en dehors du conteneur */
-    margin-top:3% ;
+    margin-top:3%;
 }
 
 .imag::before {
@@ -93,10 +119,11 @@ iconify-icon .tof{
 .imag .back{
     margin-left: 15%;
 }
-
+                                /*PRESENTATION */
 #presentation{
-    background-color: antiquewhite;
+    background-color: rgb(252, 251, 247);
     margin-bottom: 10%;
+
 }
 #presentation .container {
     margin: auto;
@@ -106,43 +133,51 @@ iconify-icon .tof{
 #presentation .row{
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     max-width: 100%;
+    justify-content: space-between;
 }
 .imag1 .imgpresentaion{
     width: 50%;
-    height: 40%;
+    height: 50%;
     border-radius: 5%;
     margin-left:45% ;
 
 }
 
 #presentation h1{
-    font-weight: bold;
-    color: #ce0033;
+    font-weight: 800px;
+    color: #da073b;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #presentation .texte1{
     max-width:35%;
     margin-right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #presentation p{
-    font-size: 88%;
+    font-size: 20px;
     line-height: 2;
 }
+                                /*NOUVELLES*/
 #nouvelles{
     margin: 3%;
 }
 #nouvelles h1{
-    font-weight: bold;
-    color: #ce0033;
+    font-weight:700px;
+    color: #c70536;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
 #nouvelles h2{
     color:#ce0033;
     font-weight: bold;
     margin-left: 2%;
+    font-size: 35px;
 }
 #nouvelles .card{
     display: flex;
@@ -177,17 +212,17 @@ iconify-icon .tof{
 }
 
 #nouvelles #icon{
-   
     display: flex;
     float: right;
-    
-   
 }
 #nouvelles #icon h3{
     text-align: right;
-    color: #ce0033;
+    color: #ce0033; 
+    margin-right: 20px;
  
 }
+
+                                /*EVENEMENTS*/
 #event{
     margin: 10% 3% 0 3%;
 }
@@ -206,11 +241,13 @@ iconify-icon .tof{
     max-width: 50%;
     margin: 1%;
     padding: 1%;
+    height: 100px;
 }
 #event .titre{
     color: #ce0033;
     font-weight: bold;
-    margin-left: 1%;
+    margin-left: 30px;
+    font-size: 30px;
 }
 #event .date{
     padding: 1%;
@@ -232,6 +269,8 @@ iconify-icon .tof{
     margin-left: 10%;
     margin-top: 2%;
 }
+
+                                    /*DECOUVERTE*/
 #decouverte .back{
     background-image: url(35.png) ;
     background-repeat: no-repeat;
@@ -239,7 +278,7 @@ iconify-icon .tof{
     background-position:center ;
     width: 100%;
     height: 500px;
-    color: white;
+    color: rgba(255, 255, 255, 0.164);
     font-size: 20px;
     margin-top: 5%;
    
@@ -249,9 +288,22 @@ iconify-icon .tof{
     font-size:30px ;
     margin-left:1020px ;
     font-weight: bold;
+    margin-bottom: 100px;
+}
+.title_decou{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+
 }
 #decouverte .text{
-    margin-left: 70px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 30px;
+    margin-top: 80px;
+    font-weight: 800;
+    
 }
 #decouverte .red{
     display: block;
@@ -277,29 +329,29 @@ iconify-icon .tof{
 #decouverte .ecrit{
     margin-top:4px ;
 }
+
+                                /*FORMATEUR*/
 #formateur .forma{
     color: #ce0033;
     margin-left:5% ;
     border-bottom: solid black;
-    width: 70px;
+    width: 170px;
+    font-size: 50px;
+
 }
 #formateur .samba{
     display: flex;
-   margin: center;
+   margin-top: 10px;
+   justify-content: space-evenly;
+   height: 500px;
    
-    
-
 }
 #formateur .sam{
     display: flex;
     margin-left: 50px;
     margin-top: 80px;
-    background: rgb(240, 237, 237);
-    width: 300px; 
-    height: 200px;
-    
-    
-
+    background: rgb(249, 247, 247);
+    box-shadow:rgba(254, 252, 252, 0.534);
 }
 #formateur.kane{
     font-size: 12px;
@@ -318,14 +370,19 @@ iconify-icon .tof{
 }
 #formateur .write{
     margin-left:40px;
-    font-size:9px ;
+    font-size:15px ;
     margin-left:15px ;
+    padding-top: 50px;
 }
 #formateur .voir{
     border-radius:60px ;
     background: #ce0033;
     color:white ;
     margin-left:100px ;
+    position: relative;
+    top: 25px;
+    left: 125px;
+    font-size: 20px;
 }
 #formateur .b{
     border-radius:40%;
@@ -347,6 +404,7 @@ iconify-icon .tof{
 #formateur .bout{
     text-align: center;
 }
+                                    /*APPRENANTS*/
 #apprenant{
     margin-top: 10%;
     margin-left:6% ;
@@ -373,6 +431,9 @@ iconify-icon .tof{
     padding:15%;
     margin-top: 1%;
     line-height: 2;
+    font-size: 20px;
+    width: 700px;
+    padding-left: 5px;
 }
 #apprenant .student{
     display: inline-block;
@@ -396,6 +457,8 @@ iconify-icon .tof{
    margin-left: 4%;
     background-color: #fff;
     font-weight: bold;
+    border-radius: 70px;
+    font-size: 20px;
 }
 #apprenant .image #deco1{
     color: #ffff;
@@ -462,6 +525,8 @@ iconify-icon .tof{
     position:absolute;
     background: #ce0033;
 }
+
+                                /*HISTOIRE*/
 #histoire{ 
     margin-top: 10%;
     margin-left:6% ;
@@ -473,6 +538,7 @@ iconify-icon .tof{
     margin-bottom: 1%;
 }
 #histoire .app{
+    font-size: 25px;
 
     max-width: 77%;
 }
@@ -513,7 +579,11 @@ iconify-icon .tof{
 #histoire .text1{
     max-width: 80%;
     margin-left: 4%;
-     font-weight: bold;
+    font-weight: bold;
+    font-size: 25px;
+    height: 10px;
+
+
  }
 #histoire h1{
     font-weight: bold;
@@ -528,10 +598,11 @@ iconify-icon .tof{
     margin-left: 5%;
 }
 #histoire .text2{
-    max-width: 70%;
+    max-width: 100%;
     text-align: center;
     margin-top: 18%;
     line-height: 2;
+    font-size: 25px;
 }
 #histoire .image #deco2{
     color: #ffff;
@@ -545,44 +616,54 @@ iconify-icon .tof{
     position:absolute;
     background: #ce0033;
 }
+
+                            /*EQUIPE PEDAGOGIQUE*/           
 #team{
     display: block;
 }
 #team h1{
     font-weight: bold;
     color: #ce0033;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
 
 }
 #team .img30{
-    width: 100%;
+    width: 90%;
     height: 90%;
     margin: 2%;
+    margin-left: 70px;
 
 }
-#team .image1{
+#team .image12b{
     max-width: 90%;
     background-color: #fff;
+    position: relative;
+    bottom: 35px;
+    display: inline-block;
     
     
 }
 #team .image1 #deco1{
     color: #ffff;
-    font-size: 12px;
+    font-size: 13px;
     display: inline-block;
     align-items: center;
     width: 10%;
     padding: 1%;
     border-radius:   0 38% 38% 0 ;
     margin-top: 4%;
-    margin-left: -2%;
+    margin-left: 2%;
     position:absolute;
     background: #ce0033;
+    font-weight: bold;
 }
 #team hr{
     background-color: #000000;
     width: 10%;
     margin: 0%;
-    height: 10px;
+    height: 3px;
   
 }
 .img8{
@@ -591,9 +672,139 @@ iconify-icon .tof{
     max-height: 70%;
 
 }
+                    
+
+.LoreJm{
+    display: block;
+    width: 300px;
+    background: #e6e2e2;
+    margin-left: 5px;
+    margin-right: 150px;
+    height: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+.Berry{
+    display: flex;
+    
+}
+.par{
+    font-size: 18px;
+}
+.Berry img{
+    margin-top: 18px;
+    border-radius: 50%;
+}
+.formateur{
+    display: block;
+    margin-left: 20px;
+}
+.max{
+    display: flex;
+    margin-left: 250px;
+}
+.petite{
+    margin-left: 70px;
+    border-bottom: solid ;
+    border-color: black ;
+    margin-top: 12px;
+    font-size: 30px ;
+    color: #ce0033;
+    font-weight: bold;
+    border-width:1.5px ;
+    max-width:450px ;
+}
+.sam{
+    font-weight: bold;
+    font-size: 20px;
+}
+.img19 img{
+    width: 80px;
+}
+.forma{
+    font-size: 20px;
+}
+                                            /*Formulaire */
+
+ .formulaire{
+        display: flex;
+        margin-left: 30px;
+        background:#f5f3f5;
+        text-decoration: colunm;
+        justify-content: space-around;
+        border-radius: 10px;
+                                                
+}
 
 
 
+
+h1{
+    text-align: center;
+    color: #ce0033;
+    font-size: 45px;
+}
+input{
+    padding: 10px;
+    border:1px solid rgb(226, 220, 220);
+}
+.nmc{
+    margin-left: 200px;
+    display: block;
+}
+.mes{
+
+    margin-top:50px ;
+    padding:30px ;
+    
+}
+.mes textarea{
+    width: 100%;
+    height:80px ;
+}
+.nou{
+    margin-bottom: 30px;
+    margin-top:10px ;
+}
+.nom{
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+.tel{
+    margin-left:20px ;
+    margin-top:30% ;
+    padding-top:30px ;
+}
+.envoyer{
+    border-radius:50px ;
+    background:#ce0033 ;
+    color:white;
+    border: #ce0033;
+    font-size: 25px;
+    padding: 10px; 
+    margin-left: 35px;
+}
+.last{
+    margin-top: 2px;
+}
+.adresse{
+    display: flex;
+}
+.adresse img{
+    margin-right: 40px;
+    margin-top: 25px;
+    height: 50px;
+
+}
+.truc{
+    display: block;
+}
+.re{
+    color:darkgray;
+}
+
+                                    /*FOOTER*/
 
 #footer{
     background-image: url('./Images\ du\ pdf\ home/18.png');
@@ -717,6 +928,8 @@ iconify-icon .tof{
     position:absolute;
     background: #ce0033;
 }
+
+                                        /*BAS PAGNE*/
 #baspage{
     background-color: #ce0033;
     color: #ffff;
@@ -737,7 +950,13 @@ iconify-icon .tof{
    margin-right: 2%;
 }
 
+                            /* Media queries et Responsivite*/
 
+@media only scren and (max-width:400px) {
+    .topbarnav a {
+        flex-direction: column;
+    }
+}
 
 
 
