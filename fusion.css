@@ -1,662 +1,700 @@
+/* section css de la barre de navigation */
+body{
+    font-family: sans-serif;
+    justify-content: center;
+}
+header {
+    justify-content: center;
+}
+.logsimplon{
+    height: 50px;
+    width: auto;
+    margin-left:1% ;
+}
 .topbar{
     display: flex;
-    width:100% ;
-    height: 16px; 
-    background: white;
+    margin-top: 2%;
 }
 .topbarnav{
-    margin-left: 200px;
     color: black;
-    font-size:16px ;
-    display: flex;
-    
+    font-size:0.9em ;
+    display:flex;
+    margin-top: 1%;
 }
 
 .topbarnav a{
+    /* pour le responsive design revoir cette unité de mesure */
     margin-left: 50px;
     color: black;
     text-decoration: none;
-}
-.topbar img{
-    margin-left:50px ;
-}
-.select{
-    margin-left: 100px ;
+    font-weight: bolder;
 }
 
-.contact{
-    margin-right:10px;
-    border: 1px solid ;
-    border-radius:30px ;
-    background:#ce0033 ;
-    margin-top:3% ;
+.btn_contacter{
+    font-size: 0.9em;
+    border-radius: 35px;
+    padding-left:0.2em ;
+    padding-right: 0.2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    background-color: crimson;
     color: white;
-    height: 20px;
-
-
+    border-color: #ce0033;
+    cursor:pointer;
 }
-.tof{
-    margin-left: 50px;
-}
-.image{
-    background-image: url(26.png);
-    font-size: cover;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    color: white;
-    margin-top:3% ;
-    opacity: (0.5)
-}
-h1{
+/*  style de la fabrique et ses missions */
+.gros_titre{
+    /* on doit mettre une ombre derrière le h1 */
     text-align: center;
-    color: white;
-    font-size: 70px;
+    color:white;
+    font-size: 2em;
     font-weight: bold;
-    padding-top: 200px;
-    
-}
-.topbarnav :hover{
-    color: red;
-    text-decoration: underline;
+    background-image:url("Fabrique/femmeexplain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1%;
+    padding:9%;
+   padding-bottom:26%;
 }
 .rouge{
-    display: flex;
-    background: #ce0033;
-    height:250px ;
-    width: 700px;
-    text-align: center;
-    margin-top: -90px;
-    margin-left:300px ;
-    opacity: calc(0.6);
+   display: flex;
+   margin-left: 18%;
+   color:white;
+   width: 66%;
+   background-color:#ce0033;
+   margin-top: -110px;
+    opacity: calc(0.8);
+
 }
-.rouge rou{
-    display: flex;
-    
+
+.box_fabrique .bas{
+    width: 70%;
+    font-size: 1.2em;
+    line-height: 1.8;
+    word-spacing:1.5rem;
+    margin-left:12%;
 }
-.rou{
-    margin-left: 20px;
+
+.box_fabrique h2{
+    font-size: 3em;
+    text-align:center;
     color: white;
-    font-weight:bold;
-    font-size: 13px; 
-    padding: 20px;
-    margin-top: 0.3px;
-    
 
 }
-.bordure{
-    border-left:solid  ;
-    height: 100px;
-    padding: 30px;
-
-}
-.bas{
-    padding:30px ;
-}
-h3{
-    font-size:30px ;
-}
-h2{
-    font-size:30px ;
-}
+/* style de la petite histoire */
 .histoire{
     text-align: center;
-    display: flex;
-    width: 110%;
-    height:40% ;
-    background:hsl(348, 17%, 94%) ;
-    
+    color:#ce0033;
+    font-size: 2.2em;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
-h4{
-    color: #ce0033;
+.para_ouverture{
+    width:25% ;
     text-align: center;
-    font-size:25px ;
+    line-height: 2;
 }
-h5{
-    color: #ce0033;
-    font-size: 25px;
-    margin-left: 50px;
+.para_ouverture h3{
+    color:#ce0033;
+    font-size: 1.8em;
 }
-.ecrit{
-    margin-left: 40px;
+.ouverture{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #f5f2f2;
+    padding: 3%;
 }
-
+.minifemme{
+    width:550px;
+    height:auto
+}
 .annee{
-    margin-top: -250px;
+    font-size: 1.7em;
+    font-weight: bolder;
+    background-color: #ce0033;
     color: white;
-    font-size: 40px;
-    
-    
-    
+   width: 48%;
+   padding-bottom: 0;
+   padding-top: 0;
+   position:relative;
+   bottom:70%;
+   left:253%
    
 }
-.im img{
-    margin-left: 100px;
-    margin-top:40px ;
-    margin-right: -100px;
-    
-}
-.annee{
-    margin-left: 400px;
-    z-index: -120px;
-    color: #ce0033;
-
-}
-#pedago{
-    
-    margin-top: -10px;
-    margin-bottom: 1%;
-}
-.container {
-    margin: auto;
-    padding: 2%;
-    
-}
-.titre h1{
-    color: #ce0033;
-    text-align: center;
-    font-weight: bold;
-    margin: 2% 0 5% 0;
-    font-size:25px ;
-    margin-top:-190px ;
-}
-.methode{
-    display: flex;
-}
-.active{
-    max-width: 35%;
-    margin-left: 5%;
-    margin-top: -20px;
-   
-}
-.active h2{
-    color: #ce0033;
-    margin-bottom:-15px ;
-    font-size: 20px;
+/* style de la pédagogie */
+.video{
+    height: 270px;
+    width: 500px;
 }
 .active p{
-    line-height: 2;
+    width: 65%;
+    line-height: 2.3;
 }
-
-.video{
-    margin-left: 6%;
-    max-width: 55%;
+.active h3{
+    color:#ce0033
 }
-#pilier{
-    margin-top: 5%;
-    margin-bottom: 1%;
-    margin-top: -200px;
-    
-    }
-    .titre1 h1{
-        font-size: 20px;
-        color: #ce0033;
-        margin-left: -870px;
-    }
-#pilier .container{
-    display: flex;
-    background-color: whitesmoke;
-    margin-left: 6%;
-    margin-right: 6%;
+.active{
+    margin-left: 7%;
 }
-#pilier .rows{
-    display: inline-block;
-    justify-content: space-between;
-    max-width: 60%;
+.pedagogie{
+    display:flex;
+   margin-left: 14%;
 }
-#pilier .titre1{
+/* style des 6 pliers */
+.icone{
+    height: auto;
+    width: 45px;
+}
+.div_box{
+    display:flex;
+    gap:8rem
+}
+.titre1 h2{
     color: #ce0033;
-    margin-left: 6%;
-     
+    margin-left: 2%;
+    font-size: 1.5em;
 }
-.row{
-    max-width: 100%;
+.rows p{
+    width: 47%;
+    font-weight: lighter;
+}
+
+.container{
+    /* width: 95%; */
+    /* margin: 0 auto; */
     display: flex;
-    justify-content: space-between;
-    
-
+    /* justify-content: space-between; */
 }
-.row .colonne1{
-    max-width: 40%;
-    background-color: #fff;
-    box-shadow:0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-bottom:10px solid #ce0033;
-    margin: 1%;
-    padding: 2%;
+.etudiante{
+    border-radius: 6%;
+    margin-top: 25%;
+    height: 30rem;
 }
-.colonne1 .img13{
-    width: 20%;
+.box{
+    border: solid rgb(246, 242, 242);
+    width: 25%;
+    font-size: 0.7em;
+    padding-left: 4%;
+    margin-top: 4%;
+    border-bottom-color: #ce0033;
+    border-bottom-width: 8px;
 }
-.colonne1 h5{
-    margin-top: 0%;
-
-}
-.colonne1 p{
-    font-size: 90%;
-    margin-top: 0%;
-    
-}
-.row .colonne2{
-    max-width: 40%;
-    margin-left: 3%;
-    background-color: #fff;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-bottom:10px solid #ce0033;
-    margin: 1%;
-    padding: 2%;
-   
-}
-.colonne2 .img29{
-    width: 20%;
-}
-.colonne2 h5{
-    margin-top: 0%;
-
-}
-.colonne2 p{
-    font-size: 90%;
-}
-#pilier .img33{
-    border-radius: 10%;
-    margin-top: 12%;
-    
-    }
-
-#pilier .image{
-    margin-left: 5%;
-    width: 0px;
-    height:0px;
-    
-}
+/* style nos valeurs */
 .valeur{
-    display: flex;
-    margin-left: 30px;
-    background: hsl(0, 23%, 97%);
-    
+    display:flex;
+    justify-content: space-evenly;
 }
-.num{
-    font-size:25px ;
-    background-color:#fcbfbf ;
-    border-radius:70% ;
-    color: #ce0033;
-    width: 40px;
-    height:40px ;
-    padding-left:5px ; 
-    margin-top: 10px;   
+.valeur-div h3{
+    color: rgb(211, 38, 73);
+    font-size:2em;
+    margin-bottom: 0.5em;
 }
-    
-.element{
-    margin-left: 300px;
-    margin-top: 25px;
+.valeur-div p{
+    width: 418px;
+    line-height: 2em;
+    margin-bottom: 6em;
 }
-h1{
-    text-align: center;
-    color: #ce0033;
-}
-h2{
-    color: #ce0033;
-    font-size:30px ;
-}
-.leselements{
-    display: flex;
-    background: white;
-    margin-bottom: 20px;
-}
-.leselements p{
-    margin-left: 15px;
-
-}
-.respect button{
-    border-radius:50px ;
-    background: #ce0033;
-    border:solid #ce0033;
-    margin-top: 12px;
+#btn-voir-plus{
+    font-size: 1.2em;
+    border-radius: 35px;
+    padding-left:3em;
+    padding-right:3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    background-color: crimson;
     color: white;
-    width:100px ;
-    height: 40px;
+    font-weight: bolder;
+    border-color: rgb(252, 249, 249);
+    cursor:pointer
 }
 .respect{
-    font-size:11px ;
-    margin-left: 120px;
+    display:flex;
+    margin:1em;
+    border:solid thin rgb(250, 240, 240);
+    padding-left: 1.5em;
+    padding: 2em;
 }
-h3{
-    text-align: center;
-    color: #ce0033;
-    font-size: 30px;
+.respect span{
+    font-size: 1.3em;
 }
+.respect p{
+    line-height:1.5em;
+}
+.respect h4{
+    color: rgb(212, 17, 56);
+    padding:0.8em;
+    font-size: 1.4em;
+    margin-right: 1em;
+    margin-top: 0.1em;
+    border: hidden;
+    border-radius: 35px;
+    background-color:rgb(255, 189, 202);
+}
+/* style de nos chiffres */
 .red{
-    
-    display: flex;
-    width:100%;
-    background: #ce0033;
-    height: 150px;
-    
-
+    display:flex;
+    justify-content: space-around;
+    background-image:url("Fabrique/arriere_plan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding:2%
+}
+.contenu h3{
+    font-size: 2.5em;
 }
 .contenu{
-    margin-left: 150px;
-    color: white;
-
-}
-.number{
-    font-size: 20px;
-    margin-right:12px ;
-
-}
-
-.nosvaleurs{
-    margin-top: -210px;
-}
-.nosvaleurs h1{
-    font-size:30px ;
-}
-#equipe{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-top: -200px;
-}
-.container {
-    margin: auto;
-    padding: 2%;
-    
-}
-#equipe .titre3{
-    color: #ce0033;
     text-align: center;
-    font-weight: bold;
-    margin-bottom:4%;
-    
 }
-#equipe p{
-    margin-bottom: 6%;
-    font-weight: bold;
+.contenu p{
+    line-height: 1.5;
+}
+/* style notre equipe */
+.texte {
     text-align: center;
-    line-height: 2;
-}
-#equipe .row{
-    max-width: 100%;
-    display: flex;
-   
-}
-.row .col{
-    max-width: 28%;
-    background-color: #fff;
-    box-shadow:0px 8px 16px ;
-    padding: 2%;
-    margin-left: 3%;
-}
-.col img{
-    border-radius: 50%;
-    width: 40%;
-    margin-left: 22%;
-    padding: 2%;
-
-}
-.col h3{
-    text-align: center;
-    margin-top: 0%;
-    
-}
-.col h4{
-    text-align: center;
-    margin-top: 0%;
-    color: #ce0033;
-}
-.col p{
-    text-align: center;
-    margin-top: 0%;
-    color: rgb(216, 204, 204);
-}
-.row .icon{
-    text-align: center;
-    
-}
-iconify-icon {
-    margin-top: 8%;
-    margin-left: 5%;
-}
-#fabrique{
-    margin-top: 2%;
-    margin-bottom: 1%;
-    margin-top:-200px ;
-}
-.container {
-    margin: auto;
-    padding: 2%;
-    
-}
-
-#fabrique .row{
-    max-width: 100%;
-    
-    display: flex;
-   
-}
-.row .col1{
-    max-width: 28%;
-    padding: 2%;
-    margin-left: 3%;
-    
-}
-#fabrique .titre4{
-    color: #ce0033;
-    text-align: center;
-    font-weight: bold;
-    margin: 2%;
-}
-.col1 h3{
-    
-    margin-top: 0%;
-    color: black;
-}
-.col1 p{
-   
-    margin-top: -4%;
-    color: rgb(22, 21, 21);
-}
-.col1 img{
-    width: 100%;
-
-
-}
-.titre3 h1{
-    font-size:30px ;
-    
-}
-#fabrique h1{
-    font-size: 30px;
-}
-.col1 h3{
-    font-size: 20px;
-    margin-left:-150px ;
-}
-.recrutement{
-    display: block;
-    background:hwb(0 97% 2%) ;
-    width: 100%;
-    height:400px ;
-}
-.recrutement h1{
-    color: #ce0033;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    margin-top:-30px ;
-    margin-bottom:-100px ;
-}
-.conten{
-    display: flex;
-    margin-top:-210px ;
-    margin-left:-40px ;
-}
-.conten img{
-    margin-left: 100px;
-    margin-bottom:10px ;
-    margin-top: 12px;
-}
-
-.conten p{
-    margin-left: 100px;
-    font-size: 14px;
-    color: black;
-
-}
-h2{
-    font-size: 18px;
-    color: #ce0033;
-    margin-left: 100px;
-}
-
-.formulaire{
-    display: flex;
-    margin-left: 30px;
-    text-decoration: colunm;
-}
-h1{
-    text-align: center;
-    color: #ce0033;
-}
-input{
-    padding: 10px;
-    border:1px solid black;
-}
-.nmc{
-    margin-left: 200px;
-    display: block;
-}
-.mes{
-
-    margin-top:50px ;
-    padding:30px ;   
-
-}
-.mes textarea{
-    width: 100%;
-    height:80px ;
-}
-.nou{
-    margin-bottom: 30px;
-    margin-top:10px ;
-}
-.nom{
-    margin-left: 20px;
-    margin-bottom: -20px;
-}
-.tel{
-    margin-left:20px ;
-    margin-top:30% ;
-    padding-top:30px ;
-}
-.envoyer{
-    border-radius:50px ;
-    background:#ce0033 ;
-    color:white ;
-    border: #ce0033;
-}
-.last{
-    margin-top: 2px;
-}
-.adresse{
-    display: flex;
-}
-.adresse img{
-    margin-right: 40px;
-    margin-top: 25px;
-}
-.truc{
-    display: block;
-}
-.re{
-    color:darkgray;
-}
-.formulaire{
-    display: flex;
-}
-.form{
-    margin-left: 100px;
-    background:white ;
-    
-}
-.offre{
-    background: hwb(0 93% 3%); 
-    width: 500px;
-    height: 500px;
-    margin-left: 15px;
-    border-radius: 20px;
-    margin-top: 10px;
-}
-h3{
-    color: #ce0033;
-    border-bottom:solid;
-    border-color: hwb(344 75% 6%);
-    border-width: 0.5px;
-    margin-left:20px ;
-
+    font-size: 1.5em;
 }
 .formateur{
+    height: auto;
+    width: 200px;
+    border-radius: 55%;
+}
+.photo_formateur{
+    display:flex;
+    justify-content: space-around;
+}
+.box_formateur{
+    text-align: center;
+    margin-top: 5%;
+    border-style: solid;
+    padding: 2%;
+    padding-left:3% ;
+    padding-right:3% ;
+    border-width: 0.2px;
+    border-radius: 2%;
+    border-color: rgb(240, 236, 236);
+}
+/* style ici la fabrique */
+.agronome{
+    height: auto;
+    width: 250px;
+}
+.div_developpement{
+    width: 18%;
+    margin-left: 10%;
+}
+.developpement{
     display: flex;
-    margin-left: 20px;
+    justify-content: center;
+}
+/* style voyage au coeur de l'Afrique */
+.groupesimplon{
+    height: auto;
+    width: 550px;
+}
+.play{
+    height: auto;
+    width: 60px;
+}
+.div_voyage span{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.voyage{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    margin-top:10%;
+    justify-content: center;
+    background-color: rgb(253, 249, 249);
+    padding: 2%;
+} 
+.div_voyage h2{
+    color:#ce0033;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+.div_voyage{
+    margin-right: 6%;
+    margin-top: 8%;
+}
+.play{
+    position:relative;
+    bottom:50%;
+    left: 50%;
+}
+.div_voyage p{
+    line-height: 1.5;
+}
+/* style recrutement */
+.simplongrp{
+    height: auto;
+    width: 530px;
+    margin-top: 6%;
+}
+.rejoindre{
+    margin-left: 10%;
+}
+.rejoindre h2{
+   color:#ce0033
+}
+.rejoindre p{
+    width: 68%;
+    line-height: 1.7;
+}
+.join{
+    display:flex;
+   /* grid-template-columns: 600px 700px;
+   align-content: center; */
+   margin-left: 12%;
+   
+}
+/* style offre en cours */
+.epingle{
+    height: auto;
+    width: 20px;
+}
+.offre{
+    display:flex;
+    margin-top: 6%;
+}
+.hr{
+    border-style: solid;
+    width: 95%;
+    border-width: 0.2px;
+    color: #e84971;
+}
+.cours{
+    background-color: #f5e0e4;
+    width: 60%;
+    padding: 2%;
+    border-radius: 2%;
+}
+.cours p{
+    width: 32%;
+}
+.btn_postuler{
+    font-size: 1em;
+    border-radius: 35px;
+    padding-left:3em;
+    padding-right:3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    background-color: crimson;
+    color: white;
+    font-weight: bolder;
+    border-color: rgb(252, 249, 249);
+    cursor:pointer;
+    margin-left: 13%;
+    margin-bottom: 3%;
+}
+.cours h3{
+    font-size: 1.5em;
 }
 .CDD{
-    background: white;
-    margin-left:60px ;
-    border-radius:13px ;
-    width:150px ;
-    height:150px ;
-    font-size: 12px;
-}
-.couleur{
-    color: #ce0033;
-}
-.bouton{
-    background: #ce0033;
-    border-bottom: solid;
-    text-align: center;
-    border-radius: 30px;
-    border: #ce0033;
-    border-color: hwb(344 75% 6%);
-    color: white;
-    margin-left: 200px;
-    width: 90px;
-    height: 30px;
-}
-.ref{
-    border-top: solid  #ce0033;
-    border-color: hwb(344 75% 6%);
+    padding-left: 3% ;
+    border-style: solid;
+    background-color: white;
+    padding: 1%;
+    width: 20%;
     border-width: 0.5px;
-    margin-left:20px ;
-    padding-top: 20px;
+    border-radius: 13%;
+    border-color: #dbd7d7;
+    position:relative;
+    bottom:58%;
+    left: 32%;
+    font-size: 0.8em;
 }
-.envoie{
-    background: #ce0033;
-    border-bottom: solid;
-    border-radius: 30px;
-    border: #ce0033;
-    border-color: hwb(344 75% 6%);
+/* Style du formulaire */
+.formulaire input{
+ padding: 1px;
+ font-size: 1em;
+ padding-top:2% ;
+ padding-bottom:2%;
+ margin-right: 1em;
+}
+textarea{
+    width: 115%;
+}
+.btn_rejoindre{
+    font-size: 1em;
+    border-radius: 35px;
+    padding-left:3em;
+    padding-right:3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    background-color: crimson;
     color: white;
-    width: 90px;
-    height: 30px;
+    font-weight: bolder;
+    border-color: rgb(252, 249, 249);
+    cursor:pointer;
 }
-.referent{
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
+.terms{
+    font-weight: bolder;
 }
-.photo{
+.joindre{
+    text-align: right;
+}
+.joindre a{
+    text-decoration: none;
+    color:#ce0033
+}
+/* style ils en parlent */
+.personne{
+    height: auto;
+    width:200px ;
+    border-radius: 45%;
+}
+.speak{
     display: flex;
-    margin-top: 4px;
+    margin-left: 20%;
 }
-.photo p{
-    margin-left: 40px;
-    margin-top: 5px;
+.div_speak p{
+  width: 68%;
+  line-height: 2;
+  font-size: 1.2em;
+  color: rgb(141, 141, 141);
+  font-weight: lighter;
 }
-.lien{
+/* style appel à candidature */
+.conteneur{
+    display: grid;
+    grid-template-columns: 400px 400px 500px;
+    justify-content: center;
+}
+.box_form h3{
+    color:white;
+    padding:0.8em;
+    font-size: 1.4em;
+    margin-right: 1em;
+    margin-top: 0.1em;
+    border: hidden;
+    border-radius: 35px;
+}
+.box_form div{
+    display:flex;
+    margin:1em;
+    border:solid thin rgb(250, 240, 240);
+    padding-left: 1.5em;
+    padding: 2em;
+}
+.box_form span{
+    font-size: 1.3em;
+}
+.DW{
+    background-color:#ce0033 ;
+}
+.DM{
+    background-color: rgb(3, 108, 168);
+}
+.RD{
+    background-color:orange
+}
+.SH{
+    background-color: red;
+}
+.CC{
+    background-color: green;
+}
+/* style des partenaires */
+.partner{
+    display:flex;
+    justify-content: space-evenly;
+}
+#partner1{
+    margin-bottom: 10%;
+    margin-top: 6%;
+}
+#partner2{
+    margin-bottom: 10%;
+}
+.orange{
+    height: 100px;
+    width: 160px;
+   }
+.societe{
+   height: 100px;
+   width: 210px;
+   }
+.france{
+    height:auto;
+    width:110px;
+   }
+.union{
+    height: auto;
+    width:110px ;
+   }
+.aviva{
+    height: auto;
+    width:110px ;
+}
+/* style footer */
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url("Fabrique/image footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:4%;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color:rgb(182, 180, 180)
+}
+#btn-joindre{
+    background-color: rgb(192, 15, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#simplon{
+    height: auto;
+    width:55%;
+    margin-top:5%;
+}
+.réseau{
+    margin-top:6%;
+    height: auto;
+    width: 9%;
+    margin-left: 2%;
+}
+aside{
+    color:white;
+    background-color: crimson;
+    padding: 1.5%;
+    font-size:1em;
+}
+aside span{
+    margin-left: 61%;
+}
 
-    color: black;
-    margin-left: 370px;
-}
-
+@media only screen and (max-width:1400px) {
+    body{
+        overflow-x: hidden;
+    }
+  
+    .logsimplon{
+        height: 25px;
+        width: auto;
+    }
+    .topbarnav{
+        color: black;
+        font-size:0.8em ;
+        display:flex;
+        margin-top: 1%;
+    }
     
-
-
+    /*  style de la fabrique et ses missions */
+    .gros_titre{
+        font-size: 2em;
+    }
+    .rouge{
+       margin-left: 10%;
+       width: 85%;
+    }
+    
+    .box_fabrique .bas{
+        width: 95%;
+        font-size: 1.2em;
+    }
+    
+    .box_fabrique h2{
+        font-size: 2em;
+    }
+    /* style petite histoire */
+    .histoire{
+        font-size: 1.8em;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .para_ouverture{
+        width:38% ;
+    }
+    .para_ouverture h3{
+        color:#ce0033;
+        font-size: 1.3em;
+    }
+    .ouverture{
+        padding: 2%;
+    }
+    .minifemme{
+        width:516px;
+        height:auto
+    }
+    .annee{
+        font-size: 1.5em;
+       bottom:68%;
+       left:201%
+       
+    }
+    /* style pedagogie */
+    .video{
+        height: 250px;
+        width: 450px;
+    }
+    .active p{
+        width: 90%;
+    }
+    .active{
+        margin-left: 5%;
+    }
+    .pedagogie{
+        display:flex;
+       margin-left: 10%;
+    }
+    /* style les 6 pliers */
+    .titre1 h2{
+        color: #ce0033;
+        margin-left: 2%;
+        font-size: 1.5em;
+    }
+    .rows p{
+        width: 75%;
+    }
+    
+    .etudiante{
+        margin-top: 25%;
+        height: 30rem;
+        margin-bottom: 45%;
+    }
+    .box{
+        width: 40%;
+        font-size: 1em;
+        padding-left: 2%;
+    }
+    /* style ici la fabrique */
+    .div_developpement{
+        width: 22%;
+        margin-left: 9%;
+    }
+  /* style voyage au coeur de l'Afrique */
+  .groupesimplon{
+    height: auto;
+    width: 480px;
+}
+.voyage{
+    padding: 1%;
+} 
+.div_voyage h2{
+    font-size: 1.4em;
+}
+.div_voyage p{
+    line-height: 1.5;
+}
+ /* style recrutement */
+ .simplongrp{
+    height: auto;
+    width: 500px;
+}
+.rejoindre{
+    margin-left: 8%;
+}
+.rejoindre p{
+    width: 115%;
+}
+.join{
+   margin-left: 5%;
+}
+}
 
