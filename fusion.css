@@ -1,19 +1,23 @@
 /* section css de la barre de navigation */
 body{
     font-family: sans-serif;
+    justify-content: center;
+}
+header {
+    justify-content: center;
 }
 .logsimplon{
-    height: 66px;
+    height: 50px;
     width: auto;
+    margin-left:1% ;
 }
 .topbar{
     display: flex;
     margin-top: 2%;
 }
 .topbarnav{
-    margin-left: 9%;
     color: black;
-    font-size:1em ;
+    font-size:0.9em ;
     display:flex;
     margin-top: 1%;
 }
@@ -25,8 +29,18 @@ body{
     text-decoration: none;
     font-weight: bolder;
 }
-.topbar img{
-    margin-left:4% ;
+
+.btn_contacter{
+    font-size: 0.9em;
+    border-radius: 35px;
+    padding-left:0.2em ;
+    padding-right: 0.2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    background-color: crimson;
+    color: white;
+    border-color: #ce0033;
+    cursor:pointer;
 }
 /*  style de la fabrique et ses missions */
 .gros_titre{
@@ -39,15 +53,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top:1%;
-    padding:15%;
+    padding:9%;
    padding-bottom:26%;
 }
 .rouge{
    display: flex;
    margin-left: 18%;
-   background-color: #ce0033;
    color:white;
    width: 66%;
+   background-color:#ce0033;
+   margin-top: -110px;
+    opacity: calc(0.8);
+
 }
 
 .box_fabrique .bas{
@@ -126,37 +143,39 @@ body{
 /* style des 6 pliers */
 .icone{
     height: auto;
-    width: 60px;
+    width: 45px;
 }
-.rows{
-    display: grid;
-    grid-template-columns: 500px 500px;
-    margin-right: 0;
+.div_box{
+    display:flex;
+    gap:8rem
 }
 .titre1 h2{
     color: #ce0033;
     margin-left: 2%;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 .rows p{
-    width: 54%;
+    width: 47%;
     font-weight: lighter;
 }
+
 .container{
+    /* width: 95%; */
+    /* margin: 0 auto; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
 }
 .etudiante{
     border-radius: 6%;
     margin-top: 25%;
-    height: 650px;
+    height: 30rem;
 }
 .box{
     border: solid rgb(246, 242, 242);
-    width: 80%;
-    font-size: 1em;
-    padding-left: 7%;
-    margin-top: 7%;
+    width: 25%;
+    font-size: 0.7em;
+    padding-left: 4%;
+    margin-top: 4%;
     border-bottom-color: #ce0033;
     border-bottom-width: 8px;
 }
@@ -231,7 +250,7 @@ body{
     line-height: 1.5;
 }
 /* style notre equipe */
-.texte p{
+.texte {
     text-align: center;
     font-size: 1.5em;
 }
@@ -309,8 +328,11 @@ body{
 /* style recrutement */
 .simplongrp{
     height: auto;
-    width: 550px;
+    width: 530px;
     margin-top: 6%;
+}
+.rejoindre{
+    margin-left: 10%;
 }
 .rejoindre h2{
    color:#ce0033
@@ -320,10 +342,11 @@ body{
     line-height: 1.7;
 }
 .join{
-    display:grid;
-   grid-template-columns: 600px 700px;
-   align-content: center;
-   margin-left: 14%;
+    display:flex;
+   /* grid-template-columns: 600px 700px;
+   align-content: center; */
+   margin-left: 12%;
+   
 }
 /* style offre en cours */
 .epingle{
@@ -387,6 +410,7 @@ body{
  font-size: 1em;
  padding-top:2% ;
  padding-bottom:2%;
+ margin-right: 1em;
 }
 textarea{
     width: 115%;
@@ -406,6 +430,13 @@ textarea{
 }
 .terms{
     font-weight: bolder;
+}
+.joindre{
+    text-align: right;
+}
+.joindre a{
+    text-decoration: none;
+    color:#ce0033
 }
 /* style ils en parlent */
 .personne{
@@ -537,7 +568,133 @@ aside{
 aside span{
     margin-left: 61%;
 }
-@media only screen and (max-width: 768px){
 
+@media only screen and (max-width:1400px) {
+    body{
+        overflow-x: hidden;
+    }
+  
+    .logsimplon{
+        height: 25px;
+        width: auto;
+    }
+    .topbarnav{
+        color: black;
+        font-size:0.8em ;
+        display:flex;
+        margin-top: 1%;
+    }
+    
+    /*  style de la fabrique et ses missions */
+    .gros_titre{
+        font-size: 2em;
+    }
+    .rouge{
+       margin-left: 10%;
+       width: 85%;
+    }
+    
+    .box_fabrique .bas{
+        width: 95%;
+        font-size: 1.2em;
+    }
+    
+    .box_fabrique h2{
+        font-size: 2em;
+    }
+    /* style petite histoire */
+    .histoire{
+        font-size: 1.8em;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .para_ouverture{
+        width:38% ;
+    }
+    .para_ouverture h3{
+        color:#ce0033;
+        font-size: 1.3em;
+    }
+    .ouverture{
+        padding: 2%;
+    }
+    .minifemme{
+        width:516px;
+        height:auto
+    }
+    .annee{
+        font-size: 1.5em;
+       bottom:68%;
+       left:201%
+       
+    }
+    /* style pedagogie */
+    .video{
+        height: 250px;
+        width: 450px;
+    }
+    .active p{
+        width: 90%;
+    }
+    .active{
+        margin-left: 5%;
+    }
+    .pedagogie{
+        display:flex;
+       margin-left: 10%;
+    }
+    /* style les 6 pliers */
+    .titre1 h2{
+        color: #ce0033;
+        margin-left: 2%;
+        font-size: 1.5em;
+    }
+    .rows p{
+        width: 75%;
+    }
+    
+    .etudiante{
+        margin-top: 25%;
+        height: 30rem;
+        margin-bottom: 45%;
+    }
+    .box{
+        width: 40%;
+        font-size: 1em;
+        padding-left: 2%;
+    }
+    /* style ici la fabrique */
+    .div_developpement{
+        width: 22%;
+        margin-left: 9%;
+    }
+  /* style voyage au coeur de l'Afrique */
+  .groupesimplon{
+    height: auto;
+    width: 480px;
 }
-@media only screen and (max-width: 1024px)
+.voyage{
+    padding: 1%;
+} 
+.div_voyage h2{
+    font-size: 1.4em;
+}
+.div_voyage p{
+    line-height: 1.5;
+}
+ /* style recrutement */
+ .simplongrp{
+    height: auto;
+    width: 500px;
+}
+.rejoindre{
+    margin-left: 8%;
+}
+.rejoindre p{
+    width: 115%;
+}
+.join{
+   margin-left: 5%;
+}
+}
+
