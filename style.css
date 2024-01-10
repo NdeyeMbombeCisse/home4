@@ -332,26 +332,76 @@ body{
 
                                 /*FORMATEUR*/
 #formateur .forma{
+    display:flex;
+    justify-content: space-evenly;
+    /* margin-left: 50px; */
+    
+}
+#formateur .forma .box_samba img{
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+#formateur .forma .box_samba p{
+    font-size: 15px;
+    padding: 20px;
+    right: 30px;
+    
+}
+#formateur .forma .box_samba{
+    box-shadow: 5px 5px 50px rgb(168, 165, 165);
+    margin-top: 60px;
+    
+}
+hr{
+    width: 200px;
+    size: 20px;
+}
+.hr1{
+    width: 200px;
+    
+}
+
+
+.bout_sam{
+    color: white;
+    background-color: #ce0033;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+    border: 1px solid #ce0033;
+}
+#formateur h2{
+    color: #ce0033;
+    font-size: 40px;
+}
+/* #formateur .forma{ 
     color: #ce0033;
     margin-left:5% ;
     border-bottom: solid black;
-    width: 170px;
+    width: 100px;
     font-size: 50px;
 
 }
 #formateur .samba{
     display: flex;
    margin-top: 10px;
-   justify-content: space-evenly;
-   height: 500px;
+   justify-content: space-between;
+   height: 100px;
+   
    
 }
 #formateur .sam{
     display: flex;
     margin-left: 50px;
     margin-top: 80px;
-    background: rgb(249, 247, 247);
+    background: rgb(255, 252, 252);
     box-shadow:rgba(254, 252, 252, 0.534);
+    
 }
 #formateur.kane{
     font-size: 12px;
@@ -365,6 +415,8 @@ body{
     margin-left: 20px;
     border-radius: 5%;
     margin-top: -15%;
+    width: 150px;
+    height:150px;
 
     
 }
@@ -403,7 +455,7 @@ body{
 }
 #formateur .bout{
     text-align: center;
-}
+}*/
                                     /*APPRENANTS*/
 #apprenant{
     margin-top: 10%;
@@ -636,12 +688,13 @@ body{
     margin-left: 70px;
 
 }
-#team .image12b{
+#team .container .lecture{
     max-width: 90%;
     background-color: #fff;
     position: relative;
     bottom: 35px;
     display: inline-block;
+    
     
     
 }
@@ -832,6 +885,7 @@ input{
     color: #ffff;
   
 }
+
 #footer .img14{
     width: 50%;
     margin: 5%;
@@ -952,10 +1006,26 @@ input{
 
                             /* Media queries et Responsivite*/
 
-@media only scren and (max-width:400px) {
-    .topbarnav a {
+@media screen and (max-width:1200px){
+    .topbar{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        }
+        .topbarnav{
+            width:100%;
+        }
+    #presentation{
+        display: block;
         flex-direction: column;
     }
+    #formateur .forma{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }  
+
+
 }
 
 
